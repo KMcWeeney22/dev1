@@ -2,6 +2,7 @@ body {
 	color: green;
 }
 
+// color chnage of definitions of front end components at bottom of page
 .marketing {
 	h4 > a {
 		color: $brand-warning;
@@ -9,4 +10,9 @@ body {
 	p {
 		color: $brand-primary;
 	}
+}
+
+.container .jumbotron {
+	@include border-top-radius(0px);
+	@include border-bottom-radius(50px);
 }
