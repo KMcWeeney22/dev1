@@ -1,0 +1,50 @@
+.alternate-theme {
+  background-image: url('http://wallpaper.zone/img/574241.jpg');
+  background-size: cover;
+
+//
+  .header {
+    // main style changes for header
+    background-color: rgba($gray-lighter, .7);
+    @include border-top-radius(50px);
+    @include border-bottom-radius(50px);
+    padding: 20px;
+
+      h3{
+        color: black;
+      }
+      a{
+        color: black;
+      }
+  } // end header alternate styles
+
+  .jumbotron {
+    color: black;
+  }
+
+  .marketing, .footer {
+    background-color: $bg-primary;
+    padding: 20px;
+  }
+
+  .marketing {
+    margin-bottom: 0px;
+    @include border-top-radius(50px);
+
+      h4 > a {
+        color: black;
+      }
+
+      p {
+        color: $brand-success;
+      }
+  }
+
+  .footer{
+    color: black;
+    @include border-bottom-radius(50px);
+  }
+
+
+
+}

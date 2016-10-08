@@ -1,5 +1,7 @@
 body {
 	color: green;
+	background-image: url('http://hdwallpaperbackgrounds.net/wp-content/uploads/2016/08/cool-white-background-9-1024x683.png');
+	background-size: cover;
 }
 
 // color chnage of definitions of front end components at bottom of page
@@ -12,7 +14,10 @@ body {
 	}
 }
 
+.jumbotron {
+	background-color: $bg-primary;
+}
 .container .jumbotron {
-	@include border-top-radius(0px);
+	@include border-top-radius(50px);
 	@include border-bottom-radius(50px);
 }
