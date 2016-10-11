@@ -1,0 +1,1 @@
+"use strict";console.log("'Allo 'Allo!"),document.getElementById("change-theme").onclick=function(){document.body.classList.toggle("alternate-theme")};
